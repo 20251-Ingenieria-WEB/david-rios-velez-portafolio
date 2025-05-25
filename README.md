@@ -19,7 +19,7 @@ This is my Resume website, showcasing my skills, experience, education, and proj
     * **Other Skills & Tools:** A list of additional skills including AWS (S3, EC2, SQS), Google Cloud, Docker, Maven, OOP, Communication, Problem solving, and Team work.
 * **Education Section:** This section details my academic background, including my ongoing Systems Engineering degree.
 * **Portfolio Section:** This section showcases a selection of my projects 
-* **Social Links:** This provides easy access to my LinkedIn (`https://www.linkedin.com/in/david-ríos-vélez-3442501b4/`) and GitHub (`https://github.com/davidrios2`) profiles via a dedicated social navigation bar on the right side of the layout.
+* **Social Links:** This provides easy access to my [LinkedIn](https://www.linkedin.com/in/david-ríos-vélez-3442501b4/) and [GitHub](https://github.com/davidrios2) profiles via a dedicated social navigation bar on the right side of the layout.
 * **Modal Component:** I've implemented a reusable modal for displaying additional information, currently used for an "About Me" section stating that I am a Full Stack Java developer with more than 4 years of experience building and implementing backend and frontend solutions.
 
 ## Technologies Used
@@ -115,7 +115,7 @@ The `src/app/` directory (Next.js App Router convention) handles routing and glo
 
 [David Rios Resume](https://david-rios-portafolio.vercel.app)
 
-#License
+# License
 
 MIT License.
 
