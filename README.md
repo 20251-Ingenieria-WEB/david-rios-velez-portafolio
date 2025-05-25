@@ -110,3 +110,7 @@ The `src/app/` directory (Next.js App Router convention) handles routing and glo
 * **`app/globals.css`**: Global stylesheet for the entire application, including Tailwind CSS imports.
 * **`app/layout.tsx`**: The root layout for the entire application, wrapping all pages and providing common elements or providers.
 * **`app/page.tsx`**: The primary page component for the root route (`/`), which assembles the different organisms and sections to form the home page.
+
+# Link
+
+[David Rios Resume](https://david-rios-portafolio.vercel.app)
