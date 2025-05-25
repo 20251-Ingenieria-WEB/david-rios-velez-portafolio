@@ -1,11 +1,14 @@
 import React, { ReactElement, isValidElement, cloneElement } from 'react';
 
+interface ElementWithClassName {
+    className?: string;
+}
+
 export interface IconProps extends React.HTMLAttributes<HTMLSpanElement> {
     children: ReactElement;
     className?: string;
 }
 
-// A simple Icon component that can be used to wrap SVG or icon components with a styled container.
 export const Icon: React.FC<IconProps> = ({
                                               children,
                                               className = '',
@@ -17,11 +20,11 @@ export const Icon: React.FC<IconProps> = ({
                 'w-full',
                 'h-full',
                 // preserve any className the child already had:
-                (children.props.className || ''),
+                ((children.props as any).className || ''),
             ]
                 .filter(Boolean)
                 .join(' '),
-        })
+        } as any)
         : children;
 
     return (
