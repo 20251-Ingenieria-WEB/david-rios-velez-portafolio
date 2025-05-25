@@ -114,3 +114,11 @@ The `src/app/` directory (Next.js App Router convention) handles routing and glo
 # Link
 
 [David Rios Resume](https://david-rios-portafolio.vercel.app)
+
+#License
+
+MIT License.
+
+This is a Next.js project bootstrapped with create-next-app.
+
+
